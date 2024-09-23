@@ -60,6 +60,11 @@ php artisan test
 ## Kafka Ui
 - http://localhost:8080
 
+## Kafka CLI
+```
+docker compose exec kafka0 bash
+```
+
 ## Test Kafka Producer 
 ```bash
   php artisan kafka:test-producer
