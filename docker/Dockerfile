@@ -30,7 +30,7 @@ RUN apt-get update \
         git \
         zlib1g-dev \
         unzip \
-        python \
+        python-is-python3 \
         && ( \
             cd /tmp \
             && mkdir librdkafka \
